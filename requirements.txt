@@ -1,0 +1,16 @@
+langchain>=0.2.12
+langchain-openai>=0.1.23
+langchain-community
+langchain-core
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
+python-dotenv>=1.0.1
+tiktoken>=0.7.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+PyPDF2
+langchain-huggingface
+sentence-transformers
+jupyterlab
+ipykernel
+"langsmith[openai-agents]"
