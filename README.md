@@ -5,27 +5,17 @@ Built fully in Streamlit, it runs your entire RAG pipeline (data loading → emb
 No external API keys needed. Fully open-source and locally runnable 🔓
 
 # ⚙️ Project Overview
-Framework: Streamlit (Python)
-
-Embeddings: BAAI/bge-large-en-v1.5 via langchain-huggingface
-
-Vector Store: FAISS (Local storage)
-
-LLM (Answer generation): Open-source model (Llama-3, Mistral-7B, or Phi-3-Mini)
-
-Features:
-
-Upload multiple input formats (PDF / DOCX / TXT)
-
-Web link ingestion using web loaders
-
-Automatic document chunking and embedding
-
-FAISS-based semantic retrieval
-
-Clean Streamlit interface with session-based state
-
-Offline open-source mode (no API keys)
+* Framework: Streamlit (Python)
+* Embeddings: BAAI/bge-large-en-v1.5 via langchain-huggingface
+* Vector Store: FAISS (Local storage)
+* LLM (Answer generation): Open-source model (Llama-3, Mistral-7B, or Phi-3-Mini)
+* Features:
+     * Upload multiple input formats (PDF / DOCX / TXT)
+     * Web link ingestion using web loaders
+     * Automatic document chunking and embedding
+     * FAISS-based semantic retrieval
+     * Clean Streamlit interface with session-based state
+     * Offline open-source mode (no API keys)
 
 # 🚀Run this project:
 
