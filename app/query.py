@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 load_dotenv()
 
-def retrive_documents(query, vector_store, k = 5):
+def retrive_documents(query, vector_store, k = 20):
     # Retrieve relevant documents based on the query
     return vector_store.similarity_search(query, k=k)
     
