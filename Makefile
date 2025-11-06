@@ -4,7 +4,7 @@ run:
 	@echo "🚀 Starting RAG Chat Assistant..."
 	@echo "🐍 Creating virtual environment..."
 	@python3 -m venv myenv
-	@echo "📦 Installing dependencies..."
+	@echo "📦 Installing dependencies, please wait..."
 	@myenv/bin/pip install --upgrade pip -q
 	@myenv/bin/pip install -r requirements.txt -q
 	@echo "✅ Environment ready. Launching Streamlit app..."
