@@ -2,7 +2,8 @@
 This project is developed as a hybrid RAG (Retrieval-Augmented Generation) system that allows you to chat with your own data sources — including PDF, Web Links, DOCX, and TXT files.
 Built fully in Streamlit, it runs your entire RAG pipeline (data loading → embedding → FAISS indexing → context retrieval → answer generation) with open-source models.
 
-No external API keys needed. Fully open-source and locally runnable 🔓
+# prerequisite
+create .env file and add your api key. 
 
 # ⚙️ Project Overview
 * Framework: Streamlit (Python)
