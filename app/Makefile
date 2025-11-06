@@ -5,10 +5,9 @@ run:
 	@echo "🐍 Creating virtual environment..."
 	@python3 -m venv myenv
 	@echo "🐍 Activating virtual environment..."
-	@source myenv/Scripts/activate
+	@myenv/Scripts/activate
 	@echo "📦 Installing dependencies, please wait..."
 	@echo "This may take a while..."
-	@myenv/Scripts/pip install --upgrade pip -q
-	@myenv/Scripts/pip install -r requirements.txt -q
+	@pip install -r requirements.txt 
 	@echo "✅ Environment ready. Launching Streamlit app..."
 	@streamlit run app/app.py
