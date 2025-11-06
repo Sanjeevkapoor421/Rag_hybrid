@@ -9,14 +9,13 @@ create .env file and add your api key.
 * Framework: Streamlit (Python)
 * Embeddings: BAAI/bge-large-en-v1.5 via langchain-huggingface
 * Vector Store: FAISS (Local storage)
-* LLM (Answer generation): Open-source model (Llama-3, Mistral-7B, or Phi-3-Mini)
+* LLM (Answer generation): gpt-4.1
 * Features:
      * Upload multiple input formats (PDF / DOCX / TXT)
      * Web link ingestion using web loaders
      * Automatic document chunking and embedding
      * FAISS-based semantic retrieval
      * Clean Streamlit interface with session-based state
-     * Offline open-source mode (no API keys)
 
 # 🚀Run this project:
 
@@ -27,10 +26,13 @@ create .env file and add your api key.
 ### 2) Do git checkout to developement_branch
     
     git checkout features/base
+
+### 3) Automated run for mac or linux users
+     make run    
     
 # 🛠️ Manually run this project
 
-### 3) Create a python virtual env
+### 4) Create a python virtual env
 
 ## For mac users
      
