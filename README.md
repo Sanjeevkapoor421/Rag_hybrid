@@ -22,8 +22,10 @@ create .env file and add your api key.
 
 ### 1) Clone this project to your local using the below git command 
     ```bash
+    
     git clone https://github.com/Sanjeevkapoor421/Rag_hybrid.git
     cd Rag_hybrid
+    
     ```
 ### 2) Do git checkout to developement_branch
     ```bash
