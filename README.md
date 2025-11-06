@@ -1,6 +1,6 @@
 # 💬 RAG Chat Assistant
 This project is developed as a hybrid RAG (Retrieval-Augmented Generation) system that allows you to chat with your own data sources — including PDF, Web Links, DOCX, and TXT files.
-Built fully in Streamlit, it runs your entire RAG pipeline (data loading → embedding → FAISS indexing → context retrieval → answer generation) with open-source models.
+Built fully in Streamlit, it runs your entire RAG pipeline (data loading → embedding → FAISS indexing → context retrieval → answer generation).
 
 # prerequisite
 create .env file and add your api key. 
