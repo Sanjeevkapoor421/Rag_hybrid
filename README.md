@@ -25,31 +25,31 @@ create .env file and add your api key.
     cd Rag_hybrid
     
 ### 2) Do git checkout to developement_branch
-    ```bash
+    
     git checkout features/base
-    ```
+    
 # 🛠️ Manually run this project
 
 ### 3) Create a python virtual env
 
 ## For mac users
-    ```bash  
+     
     python -m venv ragenv  
     source ragenv/bin/activate
-    ```
+
 ## For windows users   
-    ```bash  
+    
     python -m venv ragenv  
     ragenv/Scripts/activate
-    ``` 
+    
 ### 4) Install the requirements
-    ```bash
+    
     pip install -r requirements.txt
-    ```
+    
 ### 5) Run the project
-    ```bash
+    
     streamlit run app/app.py
-    ``` 
+    
 This will :
  * create a virtual environment " myenv " ✅
  * It will install the required dependencies from requirements file ✅
