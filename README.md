@@ -3,7 +3,7 @@ This project is developed as a hybrid RAG (Retrieval-Augmented Generation) syste
 Built fully in Streamlit, it runs your entire RAG pipeline (data loading → embedding → FAISS indexing → context retrieval → answer generation).
 
 # prerequisite
-create .env file and add your api key. 
+create your api key and add it to .env file. 
 
 # ⚙️ Project Overview
 * Framework: Streamlit (Python)
