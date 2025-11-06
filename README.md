@@ -20,8 +20,8 @@ create .env file and add your api key.
 # 🚀Run this project:
 
 ### 1) Clone this project to your local using the below git command 
-    git clone https://github.com/Sanjeevkapoor421/Rag_hybrid.git
-    cd Rag_hybrid
+    git clone https://github.com/Sanjeevkapoor421/Rag_chat.git
+    cd Rag_chat
     
 ### 2) Do git checkout to developement_branch
     
@@ -32,7 +32,7 @@ create .env file and add your api key.
     
 ### 4)Automated run for windows users  
      make -f app/Makefile run  
-       
+
 # 🛠️ Manually run this project
 
 ### 4) Create a python virtual env
