@@ -30,18 +30,21 @@ create .env file and add your api key.
 ### 3) Automated run for mac or linux users
      make run    
     
+### 4)Automated run for windows users  
+     make -f app/Makefile run  
+       
 # 🛠️ Manually run this project
 
 ### 4) Create a python virtual env
 
 ## For mac users
      
-    python -m venv ragenv  
+    python3 -m venv ragenv  
     source ragenv/bin/activate
 
 ## For windows users   
     
-    python -m venv ragenv  
+    python3 -m venv ragenv  
     ragenv/Scripts/activate
     
 ### 4) Install the requirements
