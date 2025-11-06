@@ -13,4 +13,6 @@ langchain-huggingface
 sentence-transformers
 jupyterlab
 ipykernel
-"langsmith[openai-agents]"
+langsmith[openai-agents]
+streamlit>=1.30.0
+docx2txt
