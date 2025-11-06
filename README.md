@@ -21,7 +21,6 @@ create .env file and add your api key.
 # 🚀Run this project:
 
 ### 1) Clone this project to your local using the below git command 
-    ```
     git clone https://github.com/Sanjeevkapoor421/Rag_hybrid.git
     cd Rag_hybrid
     
